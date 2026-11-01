@@ -1,0 +1,32 @@
+name: Protect dashboard from legacy updates
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  preserve-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check source, data and all dashboard renderers
+        run: node scripts/validate-site.mjs
+      - name: Reject accidental loss of existing records
+        run: |
+          if git show HEAD^:data/archive.json > /tmp/previous-archive.json 2>/dev/null; then
+            node --input-type=module -e 'import fs from "node:fs"; const old=JSON.parse(fs.readFileSync("/tmp/previous-archive.json")); const current=JSON.parse(fs.readFileSync("data/archive.json")); const ids=new Set(current.records.map(r=>r[0]+"|"+r[3])); const missing=old.records.filter(r=>!ids.has(r[0]+"|"+r[3])); if(missing.length)throw Error("Existing records removed: "+missing.map(r=>r[3]).join(","));'
+          fi
+      - name: Simulate the exact legacy-index overwrite regression
+        run: cp timeline.html index.html
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify built homepage still contains every dashboard
+        run: node scripts/validate-site.mjs _site

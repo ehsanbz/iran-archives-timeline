@@ -1,0 +1,18 @@
+# The nightly research task updates data/archive.json only.
+# Ignore a legacy timeline accidentally written to index.html.
+exclude:
+  - index.html
+  - scripts
+  - DEPLOYMENT.md
+  - AGENTS.md
+  - README.md
+  - package.json
+  - package-lock.json
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - outputs
+  - backups
+include:
+  - data
