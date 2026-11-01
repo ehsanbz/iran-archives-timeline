@@ -60,6 +60,18 @@ with the legacy timeline again. Its 793 records must be retained, including the
 13 additions after the dashboard's 780-row embedded snapshot. Both the visible
 research-Page publication paragraph and its Agent Instructions duplicated the
 obsolete overwrite instruction; both were corrected on November 1. The hosted
-task's old saved prompt is still visible in schedule metadata, so the current
-Page explicitly supersedes that instruction. No duplicate job was created and
-the existing 21:00 Berlin schedule was preserved.
+task's saved prompt was also replaced through its existing task settings after
+the user signed in. Readback confirmed the same automation ID, ten current
+sheet links, a data-only website write target, and no legacy overwrite command.
+No duplicate job was created; the enabled daily 21:00 Europe/Berlin schedule
+was preserved. Its title is now "آرشیو ایران — به‌روزرسانی ده آرشیو و داده‌های داشبورد".
+
+## Key-person deaths dossier
+
+The requested UI extension adds a dedicated deaths hub and four dossiers:
+all events and reactions, targeted attacks/assassinations, combat deaths and
+accidental deaths. Categories follow each archive record's event title, with
+reactions labelled separately. Counts are records, not victim totals or unique
+events. The Raisi helicopter crash remains an accident, recorded once with its
+companions in the existing details. The daily data-only publishing contract
+continues to protect these dossiers.
