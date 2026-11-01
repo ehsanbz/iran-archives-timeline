@@ -68,9 +68,11 @@ was preserved. Its title is now "آرشیو ایران — به‌روزرسان
 
 ## Key-person deaths dossier
 
-The requested UI extension adds a dedicated deaths hub and four dossiers:
-all events and reactions, targeted attacks/assassinations, combat deaths and
-accidental deaths. Categories follow each archive record's event title, with
+The requested UI extension has one canonical deaths dossier. Targeted attacks,
+combat deaths, accidental deaths, unclear cases and reactions are internal
+filters, not near-duplicate dossiers. The topics page shows this hub once;
+other dossiers are grouped as events, actors, operations and geography.
+Categories follow each archive record's event title, with
 reactions labelled separately. Counts are records, not victim totals or unique
 events. The Raisi helicopter crash remains an accident, recorded once with its
 companions in the existing details. The daily data-only publishing contract

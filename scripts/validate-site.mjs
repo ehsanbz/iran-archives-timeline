@@ -26,7 +26,7 @@ async function app(response,protocol='file:'){
  const doc={baseURI:'https://example.test/archive/',body:element('body'),activeElement:element('focus'),addEventListener(){},querySelector:s=>get(s.startsWith('#')?s.slice(1):s),querySelectorAll:s=>s==='.tab'?tabElements:s==='.panel'?panels:[]};
  const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async()=>({ok:true,json:async()=>response}),setTimeout,clearTimeout});
  // Expose a narrow test interface from the actual app, inside its async closure.
- const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,setTab,showPerson,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
+ const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,update,setTab,showPerson,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
  await vm.runInContext(instrumented,context);
  assert.ok(context.appTest,'Dashboard initialization failed: '+get('data-health').textContent);
  return {api:context.appTest,get};
@@ -45,9 +45,16 @@ const rome=Object.values(live.api.GEO).filter(ps=>ps.some(p=>p.id==='rome'));
 assert.equal(live.api.deathKind(live.api.data.find(d=>d.r[3]==='EXT-0033')),'accident');
 assert.equal(live.api.deathKind(live.api.data.find(d=>d.r[3]==='KILL-012')),'combat');
 assert.equal(live.api.deathKind(live.api.data.find(d=>d.r[3]==='KILL-007')),'targeted');
-const accidentCase=live.api.CASES.find(c=>c.id==='accidental-deaths');
-assert.equal(live.api.caseRelation(live.api.data.find(d=>d.r[3]==='KILL-007'),accidentCase),'');
-live.api.S.caseId='key-deaths';live.api.setTab('topics');assert.ok(live.get('panel-topics').innerHTML.includes('ترور و مرگ افراد مؤثر و سرشناس'));live.api.S.caseId='';
+assert.equal(live.api.CASES.filter(c=>c.deathKind).length,1,'Death subtypes must be filters of one dossier');
+assert.equal(new Set(live.api.CASES.map(c=>c.id)).size,live.api.CASES.length);
+assert.equal(new Set(live.api.CASES.map(c=>c.name)).size,live.api.CASES.length);
+live.api.S.caseId='key-deaths';live.api.S.deathType='accident';live.api.update();live.api.setTab('topics');
+const topicHtml=live.get('panel-topics').innerHTML;
+assert.ok(topicHtml.includes('ترور و مرگ افراد مؤثر و سرشناس'));
+assert.equal((topicHtml.match(/data-death-kind="accident"/g)||[]).length,1);
+assert.equal((topicHtml.match(/data-case="key-deaths"/g)||[]).length,0,'No duplicate death dossier card beneath its hub');
+assert.ok(topicHtml.includes('EXT-0033'));assert.ok(!topicHtml.includes('KILL-007'));
+live.api.S.caseId='';live.api.S.deathType='';live.api.update();
 assert.ok(rome.length>=6,'Rome references were lost');
 for(const id of ['war12','war40','dey1404','hezbollah','hamas','houthis','promise1','promise2','promise3','promise4'])assert.ok(live.api.CASES.some(c=>c.id===id),'Missing dossier '+id);
 // Simulate a later daily update without changing a byte of the UI template.
