@@ -17254,6 +17254,14 @@
         "author": "FDRMRZUSA",
         "license": "Public domain",
         "licenseUrl": ""
+      },
+      "افزایش قیمت نفت هم‌زمان با ریسک کشتیرانی و نگرانی مازاد عرضه": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
       }
     },
     "topics": {
