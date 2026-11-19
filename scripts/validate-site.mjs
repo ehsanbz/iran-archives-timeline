@@ -6,7 +6,7 @@ const layout=read('_layouts/dashboard.html');
 const tabs=['overview','timeline','map','topics','people','compare','sources'];
 const checkHtml=html=>{
  for(const tab of tabs){assert.ok(html.includes(`id="tab-${tab}"`),`Missing tab ${tab}`);assert.ok(html.includes(`id="panel-${tab}"`),`Missing panel ${tab}`);}
- for(const token of ['buildGeography','bindMapInteractions','solarMonthKey','showPerson','dossierBrowser','Vazirmatn','data/archive.json','validateArchive'])assert.ok(html.includes(token),`Missing feature ${token}`);
+ for(const token of ['buildGeography','bindMapInteractions','solarMonthKey','showPerson','dossierBrowser','Vazirmatn','data/archive.json','validateArchive','portraitMeta','entityIcons','assets/media/portraits.json'])assert.ok(html.includes(token),`Missing feature ${token}`);
  assert.match(html,/data:font\/woff2;base64,/);
  assert.doesNotMatch(html,/<script[^>]+src=/i);
 };
@@ -16,6 +16,14 @@ assert.match(read('_config.yml'),/^  - index\.html$/m,'Legacy index must be excl
 assert.match(read('home.html'),/layout: dashboard\npermalink: \/index\.html/);
 assert.match(read('dashboard.html'),/layout: dashboard\npermalink: \/dashboard\.html/);
 const payload=JSON.parse(read('data/archive.json'));
+const portraits=JSON.parse(read('assets/media/portraits.json'));
+const entities=JSON.parse(read('assets/media/entities.json'));
+assert.equal(Object.keys(portraits).length,196,'Portrait manifest must cover every canonical person');
+assert.ok(Object.values(portraits).filter(p=>!p.placeholder).length>=195,'Verified portraits unexpectedly missing');
+for(const [name,item] of Object.entries(portraits)){assert.ok(item.alt.includes(name),`Portrait alt text missing name: ${name}`);assert.ok(fs.existsSync(item.src.replace('/iran-archives-timeline','').replace(/^\//,'')),`Portrait file missing: ${name}`);}
+assert.ok(Object.values(entities).filter(e=>e.kind==='flag').length>=40,'Country flag aliases unexpectedly missing');
+assert.ok(Object.values(entities).filter(e=>e.kind==='logo').length>=9,'Institution logos unexpectedly missing');
+for(const item of Object.values(entities))assert.ok(fs.existsSync(item.src.replace('/iran-archives-timeline','').replace(/^\//,'')),`Entity media missing: ${item.alt}`);
 const script=layout.match(/<script>([\s\S]*?)<\/script>/)[1];
 new vm.Script(script);
 function element(id){return {id,value:'',checked:true,hidden:false,innerHTML:'',textContent:'',style:{},dataset:{},classList:{add(){},remove(){}},addEventListener(){},setAttribute(){},getAttribute(){return null},querySelectorAll(){return []},focus(){},scrollIntoView(){}};}
@@ -24,7 +32,7 @@ async function app(response,protocol='file:'){
  const tabElements=tabs.map(t=>Object.assign(get('tab-'+t),{dataset:{tab:t}}));
  const panels=tabs.map(t=>get('panel-'+t));
  const doc={baseURI:'https://example.test/archive/',body:element('body'),activeElement:element('focus'),addEventListener(){},querySelector:s=>get(s.startsWith('#')?s.slice(1):s),querySelectorAll:s=>s==='.tab'?tabElements:s==='.panel'?panels:[]};
- const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async()=>({ok:true,json:async()=>response}),setTimeout,clearTimeout});
+ const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async url=>({ok:true,json:async()=>String(url).includes('portraits.json')?portraits:String(url).includes('entities.json')?entities:response}),setTimeout,clearTimeout});
  // Expose a narrow test interface from the actual app, inside its async closure.
  const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,update,setTab,showPerson,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
  await vm.runInContext(instrumented,context);
@@ -37,7 +45,10 @@ const live=await app(payload,'https:');
 assert.equal(live.api.data.length,payload.records.length);
 assert.equal(live.get('data-health').textContent,'دریافت داده‌ها موفق بود');
 for(const tab of tabs){live.api.setTab(tab);assert.ok(live.get('panel-'+tab).innerHTML.length>100,`Empty ${tab}`);}
+live.api.setTab('people');assert.ok(live.get('panel-people').innerHTML.includes('assets/media/portraits/'),'People cards lost static portraits');
+live.api.setTab('timeline');assert.ok(live.get('panel-timeline').innerHTML.includes('entity-icon'),'Timeline lost static country or institution media');
 live.api.showPerson('رضا پهلوی');assert.equal(live.get('person-overlay').hidden,false);assert.ok(live.get('sheetcontent').innerHTML.includes('منبع'));
+assert.ok(live.get('sheetcontent').innerHTML.includes('<img'),'Person sheet portrait missing');
 assert.equal(live.api.solarMonthKey('2026-03-20'),'1404-12');
 assert.equal(live.api.solarMonthKey('2026-03-21'),'1405-01');
 assert.equal(live.api.solarMonthLabel('1402-07'),'مهر ۱۴۰۲');
@@ -78,4 +89,4 @@ const invalid=await app({records:[]},'https:');
 assert.equal(invalid.api.data.length,offline.api.data.length);
 assert.match(invalid.get('data-health').textContent,/موفق نبود/);
 if(process.argv[2]){const output=read(process.argv[2]+'/index.html');checkHtml(output);assert.ok(!output.includes('{% raw %}'),'Liquid was not processed');JSON.parse(read(process.argv[2]+'/data/archive.json'));}
-console.log(JSON.stringify({passed:true,records:payload.records.length,dates:new Set(payload.records.map(r=>r[1])).size,tabs:tabs.length,romeReferences:rome.length,dataOnlyRefresh:true,newRowGeography:true,solarNewYear:true,invalidDataFallback:true,personSidebar:true}));
+console.log(JSON.stringify({passed:true,records:payload.records.length,dates:new Set(payload.records.map(r=>r[1])).size,tabs:tabs.length,romeReferences:rome.length,dataOnlyRefresh:true,newRowGeography:true,solarNewYear:true,invalidDataFallback:true,personSidebar:true,portraitFiles:Object.values(portraits).filter(p=>!p.placeholder).length,portraitPlaceholders:Object.values(portraits).filter(p=>p.placeholder).length,entityAliases:Object.keys(entities).length}));

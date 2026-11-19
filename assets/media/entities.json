@@ -1,0 +1,454 @@
+{
+  "ایران": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ir.svg",
+    "alt": "پرچم ایران",
+    "source": "https://flagcdn.com/ir.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ایران پهلوی": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ir.svg",
+    "alt": "پرچم ایران",
+    "source": "https://flagcdn.com/ir.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "آمریکا": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/us.svg",
+    "alt": "پرچم آمریکا",
+    "source": "https://flagcdn.com/us.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ایالات متحده": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/us.svg",
+    "alt": "پرچم آمریکا",
+    "source": "https://flagcdn.com/us.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ایالات متحده آمریکا": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/us.svg",
+    "alt": "پرچم آمریکا",
+    "source": "https://flagcdn.com/us.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "اسرائیل": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/il.svg",
+    "alt": "پرچم اسرائیل",
+    "source": "https://flagcdn.com/il.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "قطر": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/qa.svg",
+    "alt": "پرچم قطر",
+    "source": "https://flagcdn.com/qa.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "عمان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/om.svg",
+    "alt": "پرچم عمان",
+    "source": "https://flagcdn.com/om.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "عربستان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/sa.svg",
+    "alt": "پرچم عربستان",
+    "source": "https://flagcdn.com/sa.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "عربستان سعودی": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/sa.svg",
+    "alt": "پرچم عربستان",
+    "source": "https://flagcdn.com/sa.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ترکیه": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/tr.svg",
+    "alt": "پرچم ترکیه",
+    "source": "https://flagcdn.com/tr.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "روسیه": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ru.svg",
+    "alt": "پرچم روسیه",
+    "source": "https://flagcdn.com/ru.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "چین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/cn.svg",
+    "alt": "پرچم چین",
+    "source": "https://flagcdn.com/cn.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "جمهوری خلق چین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/cn.svg",
+    "alt": "پرچم چین",
+    "source": "https://flagcdn.com/cn.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "بریتانیا": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/gb.svg",
+    "alt": "پرچم بریتانیا",
+    "source": "https://flagcdn.com/gb.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "انگلیس": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/gb.svg",
+    "alt": "پرچم بریتانیا",
+    "source": "https://flagcdn.com/gb.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "فرانسه": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/fr.svg",
+    "alt": "پرچم فرانسه",
+    "source": "https://flagcdn.com/fr.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "آلمان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/de.svg",
+    "alt": "پرچم آلمان",
+    "source": "https://flagcdn.com/de.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ایتالیا": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/it.svg",
+    "alt": "پرچم ایتالیا",
+    "source": "https://flagcdn.com/it.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "عراق": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/iq.svg",
+    "alt": "پرچم عراق",
+    "source": "https://flagcdn.com/iq.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "لبنان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/lb.svg",
+    "alt": "پرچم لبنان",
+    "source": "https://flagcdn.com/lb.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "سوریه": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/sy.svg",
+    "alt": "پرچم سوریه",
+    "source": "https://flagcdn.com/sy.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "جمهوری عربی سوریه": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/sy.svg",
+    "alt": "پرچم سوریه",
+    "source": "https://flagcdn.com/sy.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "اردن": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/jo.svg",
+    "alt": "پرچم اردن",
+    "source": "https://flagcdn.com/jo.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "مصر": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/eg.svg",
+    "alt": "پرچم مصر",
+    "source": "https://flagcdn.com/eg.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "امارات": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ae.svg",
+    "alt": "پرچم امارات",
+    "source": "https://flagcdn.com/ae.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "امارات متحده عربی": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ae.svg",
+    "alt": "پرچم امارات",
+    "source": "https://flagcdn.com/ae.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "پاکستان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/pk.svg",
+    "alt": "پرچم پاکستان",
+    "source": "https://flagcdn.com/pk.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "هند": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/in.svg",
+    "alt": "پرچم هند",
+    "source": "https://flagcdn.com/in.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ارمنستان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/am.svg",
+    "alt": "پرچم ارمنستان",
+    "source": "https://flagcdn.com/am.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "آذربایجان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/az.svg",
+    "alt": "پرچم آذربایجان",
+    "source": "https://flagcdn.com/az.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "جمهوری آذربایجان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/az.svg",
+    "alt": "پرچم آذربایجان",
+    "source": "https://flagcdn.com/az.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "یمن": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ye.svg",
+    "alt": "پرچم یمن",
+    "source": "https://flagcdn.com/ye.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "بحرین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/bh.svg",
+    "alt": "پرچم بحرین",
+    "source": "https://flagcdn.com/bh.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "کویت": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/kw.svg",
+    "alt": "پرچم کویت",
+    "source": "https://flagcdn.com/kw.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "سوئیس": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ch.svg",
+    "alt": "پرچم سوئیس",
+    "source": "https://flagcdn.com/ch.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "کانادا": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ca.svg",
+    "alt": "پرچم کانادا",
+    "source": "https://flagcdn.com/ca.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "افغانستان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/af.svg",
+    "alt": "پرچم افغانستان",
+    "source": "https://flagcdn.com/af.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "قزاقستان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/kz.svg",
+    "alt": "پرچم قزاقستان",
+    "source": "https://flagcdn.com/kz.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "ترکمنستان": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/tm.svg",
+    "alt": "پرچم ترکمنستان",
+    "source": "https://flagcdn.com/tm.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "فلسطین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ps.svg",
+    "alt": "پرچم فلسطین",
+    "source": "https://flagcdn.com/ps.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "دولت فلسطین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ps.svg",
+    "alt": "پرچم فلسطین",
+    "source": "https://flagcdn.com/ps.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "سرزمین‌های فلسطینی‌نشین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ps.svg",
+    "alt": "پرچم فلسطین",
+    "source": "https://flagcdn.com/ps.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "آرژانتین": {
+    "kind": "flag",
+    "src": "/iran-archives-timeline/assets/media/flags/ar.svg",
+    "alt": "پرچم آرژانتین",
+    "source": "https://flagcdn.com/ar.svg",
+    "license": "پرچم ملی؛ منبع فایل FlagCDN/Wikimedia Commons"
+  },
+  "سازمان ملل": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q1065.webp",
+    "alt": "نشان سازمان ملل",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_of_the_United_Nations.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "FDRMRZUSA"
+  },
+  "سازمان ملل متحد": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q1065.webp",
+    "alt": "نشان سازمان ملل",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_of_the_United_Nations.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "FDRMRZUSA"
+  },
+  "آژانس بین‌المللی انرژی اتمی": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q41984.webp",
+    "alt": "نشان آژانس بین‌المللی انرژی اتمی",
+    "source": "https://commons.wikimedia.org/wiki/File:International_Atomic_Energy_Agency_Logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "International Atomic Energy Agency: IAEA emblem Derivative Work: Jesuiseduardo"
+  },
+  "آژانس اتمی": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q41984.webp",
+    "alt": "نشان آژانس بین‌المللی انرژی اتمی",
+    "source": "https://commons.wikimedia.org/wiki/File:International_Atomic_Energy_Agency_Logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "International Atomic Energy Agency: IAEA emblem Derivative Work: Jesuiseduardo"
+  },
+  "اتحادیه اروپا": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q458.webp",
+    "alt": "نشان اتحادیه اروپا",
+    "source": "https://commons.wikimedia.org/wiki/File:EU_on_a_globe.svg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "S. Solberg J. , Kolja21 , Masterdeis / derivative work: Kolja21"
+  },
+  "ناتو": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q7184.webp",
+    "alt": "نشان ناتو",
+    "source": "https://commons.wikimedia.org/wiki/File:NATO_OTAN_landscape_logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author Unknown author"
+  },
+  "پیمان آتلانتیک شمالی": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q7184.webp",
+    "alt": "نشان ناتو",
+    "source": "https://commons.wikimedia.org/wiki/File:NATO_OTAN_landscape_logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author Unknown author"
+  },
+  "وزارت خارجه آمریکا": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q789915.webp",
+    "alt": "نشان وزارت خارجه آمریکا",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Department_of_State_headquarters.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "AgnosticPreachersKid"
+  },
+  "وزارت امور خارجه آمریکا": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q789915.webp",
+    "alt": "نشان وزارت خارجه آمریکا",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Department_of_State_headquarters.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "AgnosticPreachersKid"
+  },
+  "کاخ سفید": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q35525.webp",
+    "alt": "نشان کاخ سفید",
+    "source": "https://commons.wikimedia.org/wiki/File:Trump_2026_White_House_typeface.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Second presidency of Donald Trump"
+  },
+  "کنست": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q13371.webp",
+    "alt": "نشان کنست",
+    "source": "https://commons.wikimedia.org/wiki/File:Harvard_University_logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Pierre la Rose"
+  },
+  "پارلمان اسرائیل": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q13371.webp",
+    "alt": "نشان کنست",
+    "source": "https://commons.wikimedia.org/wiki/File:Harvard_University_logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Pierre la Rose"
+  },
+  "اوپک": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q7795.webp",
+    "alt": "نشان اوپک",
+    "source": "https://commons.wikimedia.org/wiki/File:OPEC_Logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author Unknown author"
+  },
+  "سازمان کشورهای صادرکننده نفت": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q7795.webp",
+    "alt": "نشان اوپک",
+    "source": "https://commons.wikimedia.org/wiki/File:OPEC_Logo.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author Unknown author"
+  },
+  "شورای امنیت": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q37470.webp",
+    "alt": "نشان شورای امنیت",
+    "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Joowwww"
+  },
+  "شورای امنیت سازمان ملل": {
+    "kind": "logo",
+    "src": "/iran-archives-timeline/assets/media/logos/q37470.webp",
+    "alt": "نشان شورای امنیت",
+    "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Joowwww"
+  }
+}
