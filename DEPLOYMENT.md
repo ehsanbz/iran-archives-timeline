@@ -39,6 +39,17 @@ date input limits, record counts and future flags are recomputed from it.
 Invalid, older or truncated data retains the embedded snapshot and displays a
 visible warning. The embedded snapshot also supports offline HTML exports.
 
+## Archive images
+
+The optional top-level media object contains people (keyed by canonical Persian
+name), titles (keyed by the exact title in column 7), and topics (keyed by the
+dashboard category or dossier ID). Preserve existing entries on each refresh.
+Each verified image has src (direct HTTPS image URL, or an existing site asset),
+alt (Persian description), and source (HTTPS provenance page). Keep author,
+license and licenseUrl when available. Only add images with a clear match and
+permission to reuse. Leave an entry absent if verification fails and report it
+as missing. A missing image does not hold back a sourced archive row.
+
 ## Checks
 
 Run `node scripts/validate-site.mjs` before publication. The regression workflow

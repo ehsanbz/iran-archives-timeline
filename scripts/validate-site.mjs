@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
-const read=p=>fs.readFileSync(p,'utf8');
+const read=p=>fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n');
 const layout=read('_layouts/dashboard.html');
 const tabs=['overview','timeline','map','topics','people','compare','sources'];
 const checkHtml=html=>{
@@ -38,13 +38,34 @@ async function app(response,protocol='file:'){
  const doc={baseURI:'https://example.test/archive/',body:element('body'),activeElement:element('focus'),addEventListener(){},querySelector:s=>get(s.startsWith('#')?s.slice(1):s),querySelectorAll:s=>s==='.tab'?tabElements:s==='.panel'?panels:[]};
  const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async url=>({ok:true,json:async()=>String(url).includes('portraits.json')?portraits:String(url).includes('entities.json')?entities:String(url).includes('offline-records.json')?fallbackRecords:String(url).includes('world.json')?worldMap:response}),setTimeout,clearTimeout});
  // Expose a narrow test interface from the actual app, inside its async closure.
- const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,update,setTab,showPerson,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
+ const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,update,setTab,showPerson,card,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
  await vm.runInContext(instrumented,context);
  assert.ok(context.appTest,'Dashboard initialization failed: '+get('data-health').textContent);
  return {api:context.appTest,get};
 }
 const offline=await app();
 offline.api.validateArchive(payload);
+for(const name of Object.keys(portraits))assert.ok(payload.media.people[name]?.src,'Missing portrait for '+name);
+const image={src:'https://example.test/image.jpg',alt:'تصویر آزمایشی',source:'https://example.test/credit'};
+const mediaProbe=structuredClone(payload);
+const probePerson='شخصیت آزمایشی تازه';
+const probeTitle='عنوان آزمایشی تازه';
+mediaProbe.media.people[probePerson]=image;
+mediaProbe.media.titles[probeTitle]=image;
+mediaProbe.media.topics.diplomacy=image;
+const probeRow=[...payload.records[0]];
+probeRow[1]='2099-01-01';
+probeRow[3]='media-probe';
+probeRow[4]=probePerson;
+probeRow[6]=probeTitle;
+mediaProbe.records.push(probeRow);
+const mediaApp=await app(mediaProbe,'https:');
+mediaApp.api.setTab('timeline');
+assert.ok(mediaApp.api.card(mediaApp.api.data.find(d=>d.r[3]==='media-probe')).includes(image.source),'Title image credit missing');
+mediaApp.api.showPerson(probePerson);
+assert.ok(mediaApp.get('sheetcontent').innerHTML.includes(image.source),'New person image credit missing');
+mediaApp.api.setTab('topics');
+assert.ok(mediaApp.get('panel-topics').innerHTML.includes(image.source),'Topic image credit missing');
 const live=await app(payload,'https:');
 assert.equal(live.api.data.length,payload.records.length);
 assert.equal(live.get('data-health').textContent,'دریافت داده‌ها موفق بود');
