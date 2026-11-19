@@ -16526,7 +16526,206 @@
         "placeholder": false
       }
     },
-    "titles": {},
+    "titles": {
+      "قیمت نفت و ریسک کشتیرانی": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "افزایش قیمت نفت در معاملات صبح": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "بازگشت روزانه قیمت نفت در مسیر افت شدید هفتگی": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "افزایش قیمت نفت هم‌زمان با حملات تازه به نفتکش‌ها": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "نسبت‌دادن شکست انتخاباتی جمهوری‌خواهان به جنگ ایران و قیمت نفت": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "بازگشت بخشی از افت قیمت نفت": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "افت قیمت نفت هم‌زمان با امید به دیپلماسی": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "حملات ادعایی به کشتی‌ها و قیمت نفت": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "فشار اقتصادی، محاصره دریایی و منابع مالی سپاه": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "قیمت آتی برنت و نفت فیزیکی در بحران هرمز": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "حوثی‌ها و بازار نفت": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "شروع ریاست موساد": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mossad_seal.svg",
+        "alt": "نشان رسمی موساد",
+        "source": "https://commons.wikimedia.org/wiki/File:Mossad_seal.svg",
+        "author": "Mossad",
+        "license": "Public domain"
+      },
+      "تصویب انتصاب رئیس موساد": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mossad_seal.svg",
+        "alt": "نشان رسمی موساد",
+        "source": "https://commons.wikimedia.org/wiki/File:Mossad_seal.svg",
+        "author": "Mossad",
+        "license": "Public domain"
+      },
+      "سپاه و ریزش": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "مراکز سپاه و موشکی": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "صادرات نفت و شرایط جنگ": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "سپاه و تسلیم": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "انسداد عملی هرمز و افت عرضه نفت": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "فعالیت سپاه در لبنان": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "تحریم و سپاه": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "شبکه پنهان صادرات نفت": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "تجارت نفت چین و ایران": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "شبکه صادرات نفت و تحریم": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "رشد صادرات نفت و اجرای تحریم": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "افت قیمت نفت و افزایش موجودی تجاری آمریکا": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trending-up.svg",
+        "alt": "نمودار صعودی نمادین بازار نفت؛ بدون دادهٔ قیمت",
+        "source": "https://lucide.dev/icons/trending-up",
+        "author": "Lucide · نمودار نمادین بازار نفت",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      }
+    },
     "topics": {}
   }
 }
