@@ -16203,7 +16203,8 @@
         "license": "حقوق تصویر نزد منبع",
         "licenseUrl": "https://www.iranintl.com/en/202405174265",
         "author": "تصویر خبری",
-        "placeholder": false
+        "placeholder": false,
+        "crop": "left"
       },
       "هرتزی هالوی": {
         "src": "/iran-archives-timeline/assets/media/portraits/q12407008.webp",
@@ -16463,7 +16464,8 @@
         "license": "حقوق تصویر نزد منبع",
         "licenseUrl": "https://www.ynetnews.com/article/r1dvdnvcbe",
         "author": "تصویر ترکیبی خبری",
-        "placeholder": false
+        "placeholder": false,
+        "crop": "right"
       },
       "مهسا علیمردانی": {
         "src": "/iran-archives-timeline/assets/media/portraits/person-160.webp",
@@ -16724,8 +16726,634 @@
         "author": "Lucide · نمودار نمادین بازار نفت",
         "license": "ISC",
         "licenseUrl": "https://lucide.dev/license"
+      },
+      "درخواست مشارکت کشورها در حفاظت از کشتیرانی هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تأکید بر شروط ایران برای بازگشایی هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "رایزنی هم‌زمان با وزیران خارجه منطقه درباره کاهش تنش و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "رایزنی درباره کاهش تنش، امنیت منطقه و کشتیرانی هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "شروط هفت‌گانه، مذاکره و بازگشایی هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "شروط ایران و بازگشایی تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "ادعای سرنگونی پهپادها نزدیک تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "طرح مشروط دو روزه برای بازگشایی هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "حملات محدود آمریکا نزدیک تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "گشودن مسیر گفت‌وگو و پیشنهاد هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تنگه هرمز و ادعاهای مین‌روبی آمریکا": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "ادعای به‌زمین‌نشاندن پهپاد آمریکایی در هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "مین‌روبی و عبور کشتی‌ها از تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "پایان جنگ، هرمز و امنیت منطقه‌ای": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "پایان جنگ، وضعیت «نه جنگ، نه صلح»، مدیریت هرمز، امنیت منطقه‌ای و روابط با همسایگان": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "کاهش تنش، امنیت منطقه‌ای، جنگ ایران و آمریکا، حملات حوثی‌ها، هرمز و محاصره بنادر ایران": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "میانجی‌گری و گفت‌وگو درباره ایران و آمریکا، هرمز و امنیت منطقه‌ای": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "امنیت هرمز و احتمال جنگ دوباره": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تفاهم‌نامه اسلام‌آباد، هرمز و توافق دفاعی مکه": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "جنگ ایران، احتمال حمله تازه، تنگه هرمز، یمن و دیپلماسی هسته‌ای": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "شرکت در نشست R4 و E3 با مشارکت ایتالیا درباره جنگ ایران، تنگه هرمز و جلوگیری از تشدید درگیری": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "حملات به کشتیرانی تجاری در تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "هرمز، امنیت منطقه‌ای و گفت‌وگوهای ایران و آمریکا": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "رایزنی درباره هرمز و مذاکرات ایران و آمریکا": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "امنیت منطقه‌ای، تنگه هرمز و حضور نیروهای خارجی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تنگه هرمز، جنگ و دیپلماسی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "گفت‌وگو درباره هرمز، جنگ و دیپلماسی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تنگه هرمز، شرایط ایران و مذاکره با آمریکا": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "انتخابات آمریکا، تنگه هرمز و تغییر حکومت": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "هرمز، میانجی‌گری و یمن": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "پیشنهاد هفت‌شرطی و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "دیپلماسی و تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "توجیه حملات و امنیت هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "حاکمیت بر تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "محاصره دریایی و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "عوارض هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تشدید جنگ و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "بستن هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "مذاکرات هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "هرمز و تفاهم‌نامه": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تفاهم‌نامه و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "آتش‌بس، هرمز و مسیر مذاکرات": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "آتش‌بس و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "هرمز و دیپلماسی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "هرمز و نظم منطقه‌ای": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "شرایط بازگشایی تنگه هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "انسداد هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "پایان جنگ، تحریم‌ها، هرمز و تضمین‌های امنیتی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "شاخه نظامی حزب‌الله": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "هرمز و زیرساخت انرژی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "تنگه هرمز و کشتیرانی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "دکترین هسته‌ای و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "جنگ و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "انرژی و هرمز": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "فعالیت نظامی حزب‌الله": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "ورود حزب‌الله به جنگ": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "حمله به مقر حزب‌الله": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "حمله به فرماندهان حزب‌الله": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "خطر جنگ اسرائیل و حزب‌الله برای انرژی": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "درخواست فشار بیشتر اتحادیه اروپا و تعریف نقش گذار": {
+        "src": "/iran-archives-timeline/assets/media/logos/q458.webp",
+        "alt": "نشان اتحادیه اروپا",
+        "source": "https://commons.wikimedia.org/wiki/File:EU_on_a_globe.svg",
+        "author": "S. Solberg J. , Kolja21 , Masterdeis / derivative work: Kolja21",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "کشته‌شدن دبیر شورای امنیت و رئیس بسیج": {
+        "src": "/iran-archives-timeline/assets/media/logos/q37470.webp",
+        "alt": "نشان شورای امنیت",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg",
+        "author": "Joowwww",
+        "license": "Public domain",
+        "licenseUrl": ""
+      },
+      "بازاعمال محدودیت‌های اتحادیه اروپا": {
+        "src": "/iran-archives-timeline/assets/media/logos/q458.webp",
+        "alt": "نشان اتحادیه اروپا",
+        "source": "https://commons.wikimedia.org/wiki/File:EU_on_a_globe.svg",
+        "author": "S. Solberg J. , Kolja21 , Masterdeis / derivative work: Kolja21",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "بازگشت تحریم‌های پیشین سازمان ملل": {
+        "src": "/iran-archives-timeline/assets/media/logos/q1065.webp",
+        "alt": "نشان سازمان ملل",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_of_the_United_Nations.svg",
+        "author": "FDRMRZUSA",
+        "license": "Public domain",
+        "licenseUrl": ""
       }
     },
-    "topics": {}
+    "topics": {
+      "military": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield.svg",
+        "alt": "نماد عملیات و امنیت",
+        "source": "https://lucide.dev/icons/shield",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "diplomacy": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/handshake.svg",
+        "alt": "نماد مذاکره و دیپلماسی",
+        "source": "https://lucide.dev/icons/handshake",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "nuclear": {
+        "src": "/iran-archives-timeline/assets/media/topics/jcpoa-vienna.jpg",
+        "alt": "مذاکرات برجام در وین، ۱۴ ژوئیهٔ ۲۰۱۵",
+        "source": "https://commons.wikimedia.org/wiki/File:Iran_Talks_14_July_2015_(19680862152).jpg",
+        "author": "وزارت خارجه اتریش",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "sanctions": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/chart-no-axes-combined.svg",
+        "alt": "نماد تحریم و اقتصاد",
+        "source": "https://lucide.dev/icons/chart-no-axes-combined",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "rights": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/scale.svg",
+        "alt": "نماد حقوق بشر و جامعه",
+        "source": "https://lucide.dev/icons/scale",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "politics": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/landmark.svg",
+        "alt": "نماد حکمرانی و سیاست",
+        "source": "https://lucide.dev/icons/landmark",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "maritime": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/ship.svg",
+        "alt": "نماد کشتیرانی و تنگه‌ها",
+        "source": "https://lucide.dev/icons/ship",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "other": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/layers.svg",
+        "alt": "نماد سایر موضوع‌ها",
+        "source": "https://lucide.dev/icons/layers",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "war12": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/calendar-range.svg",
+        "alt": "نماد پروندهٔ جنگ ۱۲روزه",
+        "source": "https://lucide.dev/icons/calendar-range",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "war40": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/calendar-range.svg",
+        "alt": "نماد پروندهٔ جنگ چهل‌روزه",
+        "source": "https://lucide.dev/icons/calendar-range",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "dey1404": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/megaphone.svg",
+        "alt": "نماد پروندهٔ اعتراضات دی ۱۴۰۴",
+        "source": "https://lucide.dev/icons/megaphone",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "hezbollah": {
+        "src": "/iran-archives-timeline/assets/media/topics/hezbollah-lebanon.jpg",
+        "alt": "تصویر آرشیوی منتسب به یک موضع حزب‌الله در جنگ لبنان، به روایت منبع",
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Lebanon_War._CXXXVIII.jpg",
+        "author": "واحد سخنگویی ارتش اسرائیل",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "hamas": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/folder-open.svg",
+        "alt": "نماد پروندهٔ حماس",
+        "source": "https://lucide.dev/icons/folder-open",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "houthis": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/folder-open.svg",
+        "alt": "نماد پروندهٔ انصارالله",
+        "source": "https://lucide.dev/icons/folder-open",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "gaza": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/map.svg",
+        "alt": "نماد پروندهٔ غزه و ۷ اکتبر",
+        "source": "https://lucide.dev/icons/map",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "hormuz": {
+        "src": "/iran-archives-timeline/assets/media/topics/hormuz-modis.jpg",
+        "alt": "تصویر ماهواره‌ای تنگهٔ هرمز از ماهوارهٔ ترا",
+        "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+        "author": "NASA GSFC / MODIS Land Rapid Response Team",
+        "license": "Public domain"
+      },
+      "key-deaths": {
+        "src": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-search.svg",
+        "alt": "نماد پروندهٔ مرگ چهره‌ها",
+        "source": "https://lucide.dev/icons/file-search",
+        "author": "Lucide",
+        "license": "ISC",
+        "licenseUrl": "https://lucide.dev/license"
+      },
+      "promise1": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "promise2": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "promise3": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "promise4": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "alt": "نشان رسمی سپاه پاسداران انقلاب اسلامی",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+        "author": "MrInfo2012 / Behnam N",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    }
   }
 }

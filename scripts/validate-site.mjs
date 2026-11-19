@@ -30,18 +30,19 @@ assert.ok(Object.values(entities).filter(e=>e.kind==='logo').length>=9,'Institut
 for(const item of Object.values(entities))assert.ok(fs.existsSync(item.src.replace('/iran-archives-timeline','').replace(/^\//,'')),`Entity media missing: ${item.alt}`);
 const script=layout.match(/<script>([\s\S]*?)<\/script>/)[1];
 new vm.Script(script);
-function element(id){return {id,value:'',checked:true,hidden:false,innerHTML:'',textContent:'',style:{},dataset:{},classList:{add(){},remove(){}},addEventListener(){},setAttribute(){},getAttribute(){return null},querySelectorAll(){return []},focus(){},scrollIntoView(){}};}
+function element(id){const classes=new Set();classes.toggle=(name,on)=>on?classes.add(name):classes.delete(name);classes.remove=name=>classes.delete(name);return {id,value:'',checked:true,hidden:false,innerHTML:'',textContent:'',style:{},dataset:{},classList:classes,addEventListener(){},setAttribute(){},getAttribute(){return null},querySelectorAll(){return []},focus(){},scrollIntoView(){}};}
 async function app(response,protocol='file:'){
  const elements=new Map(),get=id=>{if(!elements.has(id))elements.set(id,element(id));return elements.get(id)};
  const tabElements=tabs.map(t=>Object.assign(get('tab-'+t),{dataset:{tab:t}}));
  const panels=tabs.map(t=>get('panel-'+t));
- const doc={baseURI:'https://example.test/archive/',body:element('body'),activeElement:element('focus'),addEventListener(){},querySelector:s=>get(s.startsWith('#')?s.slice(1):s),querySelectorAll:s=>s==='.tab'?tabElements:s==='.panel'?panels:[]};
+ const listeners={};
+ const doc={baseURI:'https://example.test/archive/',body:element('body'),activeElement:element('focus'),addEventListener(type,fn){listeners[type]=fn;},querySelector:s=>get(s.startsWith('#')?s.slice(1):s),querySelectorAll:s=>s==='.tab'?tabElements:s==='.panel'?panels:[]};
  const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async url=>({ok:true,json:async()=>String(url).includes('portraits.json')?portraits:String(url).includes('entities.json')?entities:String(url).includes('offline-records.json')?fallbackRecords:String(url).includes('world.json')?worldMap:response}),setTimeout,clearTimeout});
  // Expose a narrow test interface from the actual app, inside its async closure.
  const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,update,setTab,showPerson,card,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
  await vm.runInContext(instrumented,context);
  assert.ok(context.appTest,'Dashboard initialization failed: '+get('data-health').textContent);
- return {api:context.appTest,get};
+ return {api:context.appTest,get,listeners};
 }
 const offline=await app();
 offline.api.validateArchive(payload);
@@ -68,6 +69,27 @@ mediaApp.api.setTab('topics');
 assert.ok(mediaApp.get('panel-topics').innerHTML.includes(image.source),'Topic image credit missing');
 const live=await app(payload,'https:');
 assert.equal(live.api.data.length,payload.records.length);
+for(const [name,side] of [['یوسف پزشکیان','right'],['محمدهادی حاجی‌رحیمی','left']]){
+ live.api.showPerson(name);
+ assert.ok(live.get('sheetcontent').innerHTML.includes('crop-'+side));
+}
+assert.ok(!live.get('reset').classList.has('filters-active'));
+live.get('q').value='sample filter';
+live.get('topic').value='nuclear';
+live.api.update();
+assert.ok(live.get('reset').classList.has('filters-active'));
+const ira=live.api.data.find(d=>d.r[0]==='iran');
+assert.ok(live.api.card(ira).includes('data-card-group="iran"'));
+live.listeners.click({target:{closest:s=>s==='[data-card-group]'?{dataset:{cardGroup:'iran'}}:null}});
+assert.equal(live.get('group').value,'iran');
+assert.equal(live.get('q').value,'');
+assert.equal(live.get('topic').value,'');
+assert.equal(live.api.S.tab,'timeline');
+assert.ok(live.get('panel-timeline').innerHTML.includes('data-card-group="iran"'));
+assert.doesNotMatch(live.get('panel-timeline').innerHTML,/data-card-group="(?!iran")/);
+live.listeners.click({target:{id:'reset',closest:()=>null}});
+assert.ok(!live.get('reset').classList.has('filters-active'));
+for(const key of ['nuclear','hormuz','hezbollah'])assert.ok(payload.media.topics[key]?.source);
 assert.equal(live.get('data-health').textContent,'دریافت داده‌ها موفق بود');
 for(const tab of tabs){live.api.setTab(tab);assert.ok(live.get('panel-'+tab).innerHTML.length>100,`Empty ${tab}`);}
 live.api.setTab('people');assert.ok(live.get('panel-people').innerHTML.includes('assets/media/portraits/'),'People cards lost static portraits');

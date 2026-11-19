@@ -1637,7 +1637,8 @@
     "license": "حقوق تصویر نزد منبع",
     "licenseUrl": "https://www.iranintl.com/en/202405174265",
     "author": "تصویر خبری",
-    "placeholder": false
+    "placeholder": false,
+    "crop": "left"
   },
   "هرتزی هالوی": {
     "src": "/iran-archives-timeline/assets/media/portraits/q12407008.webp",
@@ -1897,7 +1898,8 @@
     "license": "حقوق تصویر نزد منبع",
     "licenseUrl": "https://www.ynetnews.com/article/r1dvdnvcbe",
     "author": "تصویر ترکیبی خبری",
-    "placeholder": false
+    "placeholder": false,
+    "crop": "right"
   },
   "مهسا علیمردانی": {
     "src": "/iran-archives-timeline/assets/media/portraits/person-160.webp",
