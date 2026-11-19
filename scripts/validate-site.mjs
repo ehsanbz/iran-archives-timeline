@@ -18,6 +18,10 @@ assert.match(read('dashboard.html'),/layout: dashboard\npermalink: \/dashboard\.
 const payload=JSON.parse(read('data/archive.json'));
 const portraits=JSON.parse(read('assets/media/portraits.json'));
 const entities=JSON.parse(read('assets/media/entities.json'));
+const fallbackRecords=JSON.parse(read('assets/data/offline-records.json'));
+const worldMap=JSON.parse(read('assets/data/world.json'));
+assert.ok(Array.isArray(fallbackRecords)&&fallbackRecords.length>=790,'Static fallback records unexpectedly missing');
+assert.ok(Array.isArray(worldMap)&&worldMap.length>=170,'Static world geometry unexpectedly missing');
 assert.equal(Object.keys(portraits).length,196,'Portrait manifest must cover every canonical person');
 assert.ok(Object.values(portraits).filter(p=>!p.placeholder).length>=195,'Verified portraits unexpectedly missing');
 for(const [name,item] of Object.entries(portraits)){assert.ok(item.alt.includes(name),`Portrait alt text missing name: ${name}`);assert.ok(fs.existsSync(item.src.replace('/iran-archives-timeline','').replace(/^\//,'')),`Portrait file missing: ${name}`);}
@@ -32,7 +36,7 @@ async function app(response,protocol='file:'){
  const tabElements=tabs.map(t=>Object.assign(get('tab-'+t),{dataset:{tab:t}}));
  const panels=tabs.map(t=>get('panel-'+t));
  const doc={baseURI:'https://example.test/archive/',body:element('body'),activeElement:element('focus'),addEventListener(){},querySelector:s=>get(s.startsWith('#')?s.slice(1):s),querySelectorAll:s=>s==='.tab'?tabElements:s==='.panel'?panels:[]};
- const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async url=>({ok:true,json:async()=>String(url).includes('portraits.json')?portraits:String(url).includes('entities.json')?entities:response}),setTimeout,clearTimeout});
+ const context=vm.createContext({Intl,Date,Map,Set,URL,AbortSignal,console:{warn(){},error(){}},document:doc,location:{protocol},fetch:async url=>({ok:true,json:async()=>String(url).includes('portraits.json')?portraits:String(url).includes('entities.json')?entities:String(url).includes('offline-records.json')?fallbackRecords:String(url).includes('world.json')?worldMap:response}),setTimeout,clearTimeout});
  // Expose a narrow test interface from the actual app, inside its async closure.
  const instrumented=script.replace("\n})().catch(error=>",'\nglobalThis.appTest={data,R,GEO,CASES,deathKind,caseRelation,validateArchive,update,setTab,showPerson,solarMonthKey,solarMonthLabel,S};\n})().catch(error=>');
  await vm.runInContext(instrumented,context);
